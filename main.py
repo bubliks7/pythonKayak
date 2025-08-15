@@ -26,7 +26,7 @@ class Trasy:
                 self.jakiKajak(odleglosc)
                 break
             else:
-                print('Podaj liczbę od 1 do 6!!!!!!!!!')
+                print('Podaj liczbę od 1 do 6!!!')
 
     def jakiKajak(self, odleglosc):
         print('\nDostępne kajaki: \n - jednoosobowe \n - dwuosobowe')
@@ -56,8 +56,8 @@ class KajakiJednoosobowe:
         self.koszt_wycieczki = self.odleglosc * 7
 
     def pokaz(self):
+        print("KAJAKI JEDNOOSOBOWE!")
         print(f'\nDługość trasy: {self.odleglosc} km')
-        print("ZA KAJAKI JEDNOOSOBOWE!")
         print(f'Koszt trasy: {self.koszt_wycieczki} zł')
 
 
@@ -67,8 +67,8 @@ class KajakiDwuosobowe:
         self.koszt_wycieczki = self.odleglosc * 10
 
     def pokaz(self):
+        print("KAJAKI DWUOSOBOWE!")
         print(f'\nDługość trasy: {self.odleglosc} km')
-        print("ZA KAJAKI DWUOSOBOWE!")
         print(f'Koszt trasy: {self.koszt_wycieczki} zł')
 
 Trasy().wybor_trasy()
