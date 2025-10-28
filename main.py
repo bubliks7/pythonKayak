@@ -72,3 +72,4 @@ class KajakiDwuosobowe:
         print(f'Koszt trasy: {self.koszt_wycieczki} zł')
 
 Trasy().wybor_trasy()
+
